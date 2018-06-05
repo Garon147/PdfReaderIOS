@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>LSItemContentTypes</key>
+	<array>
+		<string>com.adobe.pdf</string>
+	</array>
 </dict>
 </plist>

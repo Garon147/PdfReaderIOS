@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		CE8A8B6C20C5B1DE003413C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8B6B20C5B1DE003413C9 /* AppDelegate.m */; };
-		CE8A8B6F20C5B1DE003413C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8B6E20C5B1DE003413C9 /* ViewController.m */; };
 		CE8A8B7220C5B1DE003413C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8A8B7020C5B1DE003413C9 /* Main.storyboard */; };
 		CE8A8B7420C5B1DF003413C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8A8B7320C5B1DF003413C9 /* Assets.xcassets */; };
 		CE8A8B7720C5B1DF003413C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8A8B7520C5B1DF003413C9 /* LaunchScreen.storyboard */; };
 		CE8A8B7A20C5B1DF003413C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8B7920C5B1DF003413C9 /* main.m */; };
+		CE8A8B8120C5C106003413C9 /* test_pdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8A8B8020C5C106003413C9 /* test_pdf.pdf */; };
+		CE8A8B8420C5CCB5003413C9 /* AllPagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8B8320C5CCB5003413C9 /* AllPagesViewController.m */; };
+		CE8A8B8520C5CDB3003413C9 /* SinglePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8B6E20C5B1DE003413C9 /* SinglePageViewController.m */; };
+		CE8A8B8820C5CFAB003413C9 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8B8720C5CFAB003413C9 /* BaseViewController.m */; };
+		CEDC7DBB20C718E70023E178 /* latex.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CEDC7DBA20C718E60023E178 /* latex.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE8A8B6720C5B1DE003413C9 /* PdfReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PdfReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8A8B6A20C5B1DE003413C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE8A8B6B20C5B1DE003413C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE8A8B6D20C5B1DE003413C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE8A8B6E20C5B1DE003413C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE8A8B6D20C5B1DE003413C9 /* SinglePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SinglePageViewController.h; sourceTree = "<group>"; };
+		CE8A8B6E20C5B1DE003413C9 /* SinglePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinglePageViewController.m; sourceTree = "<group>"; };
 		CE8A8B7120C5B1DE003413C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE8A8B7320C5B1DF003413C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8A8B7620C5B1DF003413C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8A8B7820C5B1DF003413C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE8A8B7920C5B1DF003413C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE8A8B8020C5C106003413C9 /* test_pdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test_pdf.pdf; sourceTree = "<group>"; };
+		CE8A8B8220C5CCB5003413C9 /* AllPagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllPagesViewController.h; sourceTree = "<group>"; };
+		CE8A8B8320C5CCB5003413C9 /* AllPagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllPagesViewController.m; sourceTree = "<group>"; };
+		CE8A8B8620C5CFAB003413C9 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CE8A8B8720C5CFAB003413C9 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CEDC7DBA20C718E60023E178 /* latex.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = latex.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +68,11 @@
 		CE8A8B6920C5B1DE003413C9 /* PdfReader */ = {
 			isa = PBXGroup;
 			children = (
+				CEDC7DBA20C718E60023E178 /* latex.pdf */,
+				CE8A8B8920C5CFBA003413C9 /* ViewControllers */,
+				CE8A8B8020C5C106003413C9 /* test_pdf.pdf */,
 				CE8A8B6A20C5B1DE003413C9 /* AppDelegate.h */,
 				CE8A8B6B20C5B1DE003413C9 /* AppDelegate.m */,
-				CE8A8B6D20C5B1DE003413C9 /* ViewController.h */,
-				CE8A8B6E20C5B1DE003413C9 /* ViewController.m */,
 				CE8A8B7020C5B1DE003413C9 /* Main.storyboard */,
 				CE8A8B7320C5B1DF003413C9 /* Assets.xcassets */,
 				CE8A8B7520C5B1DF003413C9 /* LaunchScreen.storyboard */,
@@ -69,6 +80,19 @@
 				CE8A8B7920C5B1DF003413C9 /* main.m */,
 			);
 			path = PdfReader;
+			sourceTree = "<group>";
+		};
+		CE8A8B8920C5CFBA003413C9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A8B6D20C5B1DE003413C9 /* SinglePageViewController.h */,
+				CE8A8B6E20C5B1DE003413C9 /* SinglePageViewController.m */,
+				CE8A8B8220C5CCB5003413C9 /* AllPagesViewController.h */,
+				CE8A8B8320C5CCB5003413C9 /* AllPagesViewController.m */,
+				CE8A8B8620C5CFAB003413C9 /* BaseViewController.h */,
+				CE8A8B8720C5CFAB003413C9 /* BaseViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8A8B7720C5B1DF003413C9 /* LaunchScreen.storyboard in Resources */,
+				CE8A8B8120C5C106003413C9 /* test_pdf.pdf in Resources */,
 				CE8A8B7420C5B1DF003413C9 /* Assets.xcassets in Resources */,
 				CE8A8B7220C5B1DE003413C9 /* Main.storyboard in Resources */,
+				CEDC7DBB20C718E70023E178 /* latex.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8A8B6F20C5B1DE003413C9 /* ViewController.m in Sources */,
+				CE8A8B8520C5CDB3003413C9 /* SinglePageViewController.m in Sources */,
+				CE8A8B8820C5CFAB003413C9 /* BaseViewController.m in Sources */,
 				CE8A8B7A20C5B1DF003413C9 /* main.m in Sources */,
+				CE8A8B8420C5CCB5003413C9 /* AllPagesViewController.m in Sources */,
 				CE8A8B6C20C5B1DE003413C9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
